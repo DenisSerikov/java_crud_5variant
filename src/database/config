@@ -1,0 +1,7 @@
+CREATE TABLE events (
+                        id SERIAL PRIMARY KEY,
+                        type VARCHAR(255) NOT NULL,
+                        date VARCHAR(255),
+                        time VARCHAR(255),
+                        description VARCHAR(255)
+);
